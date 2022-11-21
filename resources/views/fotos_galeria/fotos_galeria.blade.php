@@ -263,7 +263,7 @@
     <ul class="menu">
         <li class="b">BIENVENIDOS <br> </li>
         <li><a href="{{ url('/')}}">INICIO</a></li>
-        <li><a href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+        <li><a href="{{ url('/contact')}}">CONTACTENOS</a></li>
         <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
         <li><a class="active" href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
         <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
@@ -276,7 +276,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <h1 class="center-align titulo">¿FOTOS DE GALERÍAS</h1>
+                <h1 class="center-align titulo">FOTOS DE GALERÍAS</h1>
             </div>
 
             <div class="carousel center-align">
