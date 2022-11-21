@@ -21,6 +21,8 @@ Route::get('/contact', function () {
 });
 
 Route::get('/productos', 'StoreController@index');
+Route::get('/foto_galeria', 'FotosGaleriaController@obtenerVistaFotos');
+
 
 Route::get('productos/{slug}',
 [
