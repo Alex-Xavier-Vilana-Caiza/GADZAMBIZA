@@ -1,5 +1,5 @@
-@extends('layouts.fronted.nosotros')
-@section('redes')
+@extends('layouts.fronted.sobrenosotros')
+@section('redesdos')
 <div class="red">
     <div id="facebook">
         <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
@@ -42,7 +42,7 @@
     </a>
     <div class="menu-toggle" ></div>
     <nav>
-        <ul>
+            <ul>
                 <li><a  href="{{ url('/')}}" >INICIO</a></li>
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
@@ -62,7 +62,7 @@
                         <h4>GOBIERNO <span>PARROQUIAL</span></h4>
 						<br>
 						<br>
-                        <h1 class="tipeo1">COMUNÍCATE CON NOSOTROS</h1>
+                        <h1 class="tipeo1">SOBRE NOSOTROS</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                     </div>
                 </div>
@@ -79,8 +79,22 @@
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>¿Nuestra Misión?</h3>
-                <p>En el 2019, la parroquia de Zámbiza es unida, con límites definidos, segura, saludable donde los ciudadanos acceden en igualdad de condiciones a los servicios básicos (energía, agua, saneamiento, salud, educación, tecnología) y a espacios verdes para la recreación.
+                <h3>PRESIDENTE</h3>
+                <p>
+                                    BIOGRAFÍA
+                    Nombre completos: Celio Reinaldo Arias Pilaguano
+                    Nacionalidad: Ecuatoriana
+                    Edad: 61 años
+
+                    PRIMARIA
+                    Unidad Educativa «Pedro Luis Calero» Zámbiza
+
+                    SECUNDARIA
+                    Colegio Unión Nacional De Periodistas (UNP)
+                    NIVEL SUPERIOR
+                    Universidad Central Del Ecuador Profesión Psicólogo
+                    CARGO ACTUAL
+                    Presidente del GADPR de Zámbiza
                 </p>
             </div>
         </div>
@@ -92,12 +106,23 @@
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>Objetivos Estrategicos</h3>
+                <h3>VICEPRESIDENTE</h3>
                 <p>
-                    Conservar de manera técnica
-                    
-                    los ecosistemas naturales, través de campañas de educación y protección ambiental, conservando la biodiversidad, quebradas y fuentes de agua, evitando la expansión urbana con todos sus problemas (plagas, basura, animales domésticos introducidos entre otros). Mediante la gestión con los gobiernos municipales, provinciales y central.
-                    .</p>
+                                BIOGRAFÍA
+                Apellidos: Lluno Carrera
+                Nombres: Hipolito Javier
+                Nacionalidad: Ecuatoriana
+                Numero de cedula: 170395619-1
+                Tipo de sangre: A+
+                Profesión: Abogado de los tribunales de justicia, Doctor en jurisprudencia y Magister en derecho civil y procesal civil
+                Registro profesional 6495 C. A. P. – 17-2002 – 345 Foro de Abogados
+                Función: Vicepresidente del GADP- Z
+                Representante: Comisión de seguridad y del adulto mayor
+                Domicilio: Zambiza, cantón Quito, provincia de Pichincha, calle Ambato n.- oe1 – 119 entre Mexico y Babahoyo
+                Teléfonos: 2886296 – 0995031650 – O987011901
+                Correo electrónico: www.hlluno@gmail.com
+
+                </p>
                 
             </div>
         </div>
@@ -109,11 +134,14 @@
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>Objetivos Estrategicos</h3>
-                <p>Recuperar y fortalecer
-                    
-                    la pertenencia cultural, a través de mejoras en los servicios de salud, educación, vivienda, vialidad, alumbrado público y seguridad de la población al igual que los espacios públicos de recreación y convivencia intercultural mediante actividades propias de parroquia, esto mediante la articulación con los otros gobiernos seccionales
-                    .
+                <h3>VOCAL GADPR</h3>
+                <p>
+                                    BIOGRAFÍA
+                    Lic. en Ciencias de la Educación mención “Físico- Matemático” en la Universidad Técnica Particular de Loja.
+                    Ejerció como docente del Colegio Particular “Fernando Ortiz Crespo”
+                    Vocal a cargo de la comisión de Educación, Cultura y Producción en la administración 2014-2019
+                    Actualmente Vocal a cargo de la comisión de Salud, Educación y Deporte.
+
                 </p>
             </div>
         </div>
@@ -125,12 +153,17 @@
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>¿Objetivos Estrategicos?</h3>
+            <h3>VOCAL GADPR</h3>
                 <p>
-                    Propiciar actividades y acciones
-                    
-                    concretas creando oportunidades laborales locales para el desarrollo productivo agrícola, turístico y comercial, garantizando los medios de producción (crédito, riego, suelo, centros de acopio, espacios para la comercialización) de manera sostenible para mejorar la calidad de vida de la población
-                    . 
+                                    CARGO ACTUAL
+                    Vocal Principal GAD Parroquial de Zámbiza.
+                    COMISIONES A CARGO:
+                    Medio Ambiente, Cultura y Producción.
+                    Durante 15 años desempeño su actividad profesional en la empresa Privada en las siguientes empresas: QUITO MOTORS S.A.C.I (Ford Motor Company), TECNICA GENERAL DE CONSTRUCCIONES S.A., adicional presto sus servicios con asesoría informática a otras 13 empresas entre nacionales y transnacionales.
+                    EXPERIENCIA DIRIGENCIAL
+                    nicio su carrera dirigencial como presidente del Barrio San Miguel de Cocotog en el año 2014 siendo reelecto por tres años, luego fue elegido como presidente de la Comuna San José de Cocotog en el año 2016 siendo reelecto por tres años consecutivos.
+                    Entre los logros obtenidos es trabajar en conjunto con la comunidad para mejorar las condiciones de vida de los comuneros de Comuna San José de Cocotog con la construcción de obras de servicios básicos, espacios públicos, movilidad, cultura, medio ambiente, deportivo, productividad y seguridad, haber ganado el Concurso Mi Barrio Ejemplar y Sostenible en el año 2018 organizado por el IMPU (El Instituto Metropolitano de Planificación Urbana) del Distrito Metropolitano de Quito. 
+
                 </p>
             </div>
         </div>

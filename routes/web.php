@@ -40,6 +40,9 @@ Route::get('categorias/{slug}',[
 
 Route::get('/nosotros', 'ClientesController@clientes');
 
+Route::get('/sobrenosotros', 'NosotrosController@clientes');
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -53,5 +56,6 @@ Route::resource('/ofertas/todas', 'PublicofertController')->middleware('auth');
 
 Route::resource('/Categorias', 'CategoriasController')->middleware('auth');
 Route::resource('/producto', 'ProductoController')->middleware('auth');
+
 
 /*ADMIN*/
