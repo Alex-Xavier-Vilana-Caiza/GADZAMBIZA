@@ -2,19 +2,19 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
         <a href="" target="none" class="fab fa-twitter-square"></a>
     </div>
     <div id="whatsaap">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
+        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="none" class="fab fa-whatsapp"></a>
     </div>
     <div id="linkeding">
-        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
+        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="none" class="fab fa-linkedin"></a>
     </div>
 </div>
 @endsection
@@ -28,7 +28,7 @@
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                gadzambiza@hotmail.com
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
             <ul>
                 <li><a  href="{{ url('/')}}" >INICIO</a></li>
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
+                <li><a  href="{{ url('/productos')}}">SERVICIOS</a></li>
                 <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
             </ul>
         </nav>
@@ -162,7 +162,7 @@
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="_blank">Facebook</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-twitter"></i>
@@ -170,11 +170,11 @@
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="_blank">Instagram</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Linkedin</a>
+                        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="_blank">Linkedin</a>
                     </li>
                 </ul>
             </li>
@@ -193,7 +193,7 @@
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://josediazmirano.github.io/jldiaz/" target="_blank">©GADZAMBIZA-2022</a></p>
+            <p>Todos los Derechos reservados by <a href="https://www.gadzambiza.gob.ec/" target="_blank">©GADZAMBIZA-2022</a></p>
         </div>
 </footer>
 @endsection

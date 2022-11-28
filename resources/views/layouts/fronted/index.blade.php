@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
-    <title>JLDM | Web Dinamica</title>
+    <title>Gobierno Parroquial de Zambiza-2022</title>
 
     <!--LINNK-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -47,9 +47,7 @@
     <script src="{{asset('js/typed.js') }}"></script>
     <script>
         var typed = new Typed('.type', {
-        strings: ['<span><i class="fas fa-paint-brush"></i></span> RESPONSIVE', 
-                    '<span><i class="fas fa-building"></i></span> DINAMICA'
-                    ,'<span><i class="fas fa-coffee"></i></span> FOLLOW ME'],
+        strings: ['<span><i class="fas fa-paint-brush"></i></span> Cuna de arte, Fé y Cultura'],
         typeSpeed:60,backSpeed:60,loop:true});
     </script>
 </body>

@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Auth;
 */
 /*NAVBAR*/
 Route::get('/', 'PublicofertController@ofertas');
+Route::post('/login_validete', 'AutheticationController@loginvalidation')->name("login_validete");
 
 
 Route::get('/contact', function () {
