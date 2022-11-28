@@ -46,6 +46,7 @@
                 <li><a href="{{ url('/')}}" >INICIO</a></li>
                 <li><a href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
+                <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
                 <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
             </ul>
         </nav>
