@@ -41,12 +41,20 @@
         <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
     </a>
     <div class="menu-toggle" ></div>
-        <nav>
+    <nav>
             <ul>
+
+                <li><a  href="{{ url('/')}}" >INICIO</a></li>
+                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+                <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
+                <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
+                <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+
                 <li><a href="{{ url('/')}}" >INICIO</a></li>
                 <li><a href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a class="active" href="{{ url('/productos')}}">SERVICIOS</a></li>
                 <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+
             </ul>
         </nav>
         <div class="clearfix"></div>

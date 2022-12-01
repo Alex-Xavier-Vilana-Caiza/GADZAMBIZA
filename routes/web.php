@@ -25,11 +25,7 @@ Route::get('/productos', 'StoreController@index');
 Route::get('/foto_galeria', 'FotosGaleriaController@obtenerVistaFotos');
 
 
-Route::get('productos/{slug}',
-[
-    'as'   => 'product-details',
-    'uses' => 'StoreController@show'
-]);
+Route::get('/sobrenosotros', 'NosotrosController@sobrenosotros');
 
 /*PRUEBA
 Route::resource('/categorias', 'StoreController');*/
@@ -42,6 +38,9 @@ Route::get('categorias/{slug}',[
 
 
 Route::get('/nosotros', 'ClientesController@clientes');
+
+
+
 
 Auth::routes();
 
@@ -56,5 +55,6 @@ Route::resource('/ofertas/todas', 'PublicofertController')->middleware('auth');
 
 Route::resource('/Categorias', 'CategoriasController')->middleware('auth');
 Route::resource('/producto', 'ProductoController')->middleware('auth');
+
 
 /*ADMIN*/
