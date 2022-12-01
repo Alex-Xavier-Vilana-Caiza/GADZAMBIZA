@@ -22,11 +22,7 @@ Route::get('/contact', function () {
 
 Route::get('/productos', 'StoreController@index');
 
-Route::get('productos/{slug}',
-[
-    'as'   => 'product-details',
-    'uses' => 'StoreController@show'
-]);
+Route::get('/sobrenosotros', 'NosotrosController@sobrenosotros');
 
 /*PRUEBA
 Route::resource('/categorias', 'StoreController');*/
@@ -40,7 +36,7 @@ Route::get('categorias/{slug}',[
 
 Route::get('/nosotros', 'ClientesController@clientes');
 
-Route::get('/sobrenosotros', 'NosotrosController@clientes');
+
 
 
 Auth::routes();
