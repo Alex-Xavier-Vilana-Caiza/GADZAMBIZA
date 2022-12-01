@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Auth;
 */
 /*NAVBAR*/
 Route::get('/', 'PublicofertController@ofertas');
+Route::post('/login_validete', 'AutheticationController@loginvalidation')->name("login_validete");
 
 
 Route::get('/contact', function () {
@@ -21,6 +22,8 @@ Route::get('/contact', function () {
 });
 
 Route::get('/productos', 'StoreController@index');
+Route::get('/foto_galeria', 'FotosGaleriaController@obtenerVistaFotos');
+
 
 Route::get('/sobrenosotros', 'NosotrosController@sobrenosotros');
 

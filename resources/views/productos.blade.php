@@ -24,11 +24,11 @@
         <div class="d-inline-flex ml-auto">
             <div class="headcont">
                 <i class="fas fa-2x fa-mobile-alt messenge"></i>
-                +51 999-999-999
+                2886 280 / 0998757288
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                gadzambiza@hotmail.com
             </div>
         </div>
     </div>
@@ -43,11 +43,18 @@
     <div class="menu-toggle" ></div>
     <nav>
             <ul>
+
                 <li><a  href="{{ url('/')}}" >INICIO</a></li>
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+
+                <li><a href="{{ url('/')}}" >INICIO</a></li>
+                <li><a href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+                <li><a class="active" href="{{ url('/productos')}}">SERVICIOS</a></li>
+                <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+
             </ul>
         </nav>
         <div class="clearfix"></div>
@@ -144,7 +151,7 @@
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://josediazmirano.github.io/jldiaz/" target="_blank">©JLDIAZ-2020</a></p>
+            <p>Todos los Derechos reservados by <a href="https://www.gadzambiza.gob.ec/" target="_blank">©JLDIAZ-2020</a></p>
         </div>
 </footer>
 @endsection

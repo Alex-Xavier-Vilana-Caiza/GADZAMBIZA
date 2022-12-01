@@ -7,7 +7,7 @@
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
+                    <form method="POST" action="{{ route('login_validete') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -81,34 +81,34 @@
             <div class="contactos_info">
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>jldm605@gmail.com</p>
+                    <p>gadzambiza@hotmail.com</p>
                 </div>
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>999999999</p>
+                    <p>2886 280</p>
                 </div>
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>9990-89095</p>
+                    <p>0998757288</p>
                 </div>
             </div>
             <div class="social_media">
-                <p>Atte:</p>
+                <p>Att:</p>
                 <div class="social-icons">
-                        <img src="{{asset('img/favicon_higienika_office_peru.png')}}" alt="">
-                        <p>Higienika Oficce Perú</p>
+                        <img src="{{asset('img/favicon_higienika_office_per.png')}}" alt="">
+                        <p>Gobierno Parroquial de Zámbiza</p>
                 </div>
             </div>
         </div>
         <div class="contact-form">
-            <form method="POST" action="{{ route('login') }}" autocomplete="off">
+            <form method="POST" action="{{ route('login_validete') }}" autocomplete="off">
             @csrf
                 <h3 class="contact_tittle">INGRESA TUS DATOS</h3>
                 <div class="input-container">
                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="EMAIL" autofocus>
                         @error('email')
                             <span class="invalid-feedback" role="alert">
-                                <strong><h6 style="color:yellow;">{{ __('Por favor digite bien su usuario o contraseña') }}</h6></strong>
+                                <strong><h6 style="color:rgb(252, 9, 9);">{{ __('Por favor digite bien su usuario o contraseña') }}</h6></strong>
                             </span>
                         @enderror
                 </div>
@@ -120,7 +120,7 @@
                     <div class="form-group row mb-0">
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
+                                        {{ __('¿Olvidaste tu contraseña?') }}
                                     </a>
                                 @endif
                     </div>

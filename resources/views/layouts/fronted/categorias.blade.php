@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-        <title>JLDM |Productos</title>
+        <title>Servicios-Gobierno Parroquial de Zambiza-2022</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
@@ -39,9 +39,9 @@
     <script src="{{asset('js/typed.js') }}"></script>
     <script>
 	var typed = new Typed('.type', {
-        strings: ['<span><i class="fas fa-check"></i></span> CELULARES', 
-                '<span><i class="fas fa-check"></i></span> LAPTOPS',
-                '<span><i class="fas fa-check"></i></span> REPUESTOS'],
+        strings: ['<span><i class="fas fa-check"></i></span> EVENTOS', 
+                '<span><i class="fas fa-check"></i></span> ARTESANIAS',
+                '<span><i class="fas fa-check"></i></span> HISTORIA'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
     </body>

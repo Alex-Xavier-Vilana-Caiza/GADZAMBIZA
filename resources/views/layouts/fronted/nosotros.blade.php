@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-        <title>JLDM |Nosotros</title>
+        <title>Nosotros-Gobierno Parroquial de Zambiza-2022</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
@@ -57,7 +57,7 @@
     <script>
 	var typed = new Typed('.type', {
     strings: ['<span><i class="fas fa-mobile-alt"></i></span> 2886 280 / 0998757288', 
-                '<span><i class="fas fa-mail-bulk"></i></span> jldm605@gmail.com'],
+                '<span><i class="fas fa-mail-bulk"></i></span> gadzambiza@hotmail.com'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
     </body>
