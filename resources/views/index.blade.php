@@ -44,17 +44,12 @@
     <nav>
             <ul>
 
-                <li><a  href="{{ url('/')}}" >INICIO</a></li>
+                <li><a href="" class="active">INICIO</a></li>
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-
-                <li><a href="" class="active">INICIO</a></li>
-                <li><a href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
+                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
                 <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
-                <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
             </ul>
@@ -69,13 +64,9 @@
                 <div class="col-12">
                     <div class="hero-text">
                         <h4>GOBIERNO  <span> PARROQUIAL</></h4>
-						<br>
-						<br>
                         <h1 class="tipeo1">DE ZÁMBIZA</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                         <div class="botonesinfo">
-                        <a href="" class="btn hero-btn">MAS INFORMACIÓN</a>
-                        <a href="{{ url('/productos')}}" class="btn hero-btn2 btn1">VER PRODUCTOS</a>
                         </div>
                     </div>
                 </div>

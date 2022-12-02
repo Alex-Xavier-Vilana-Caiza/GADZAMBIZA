@@ -43,16 +43,13 @@
     <div class="menu-toggle" ></div>
     <nav>
         <ul>
-                <li><a  href="{{ url('/')}}" >INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-
-                <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
-                <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-
-                <li><a  href="{{ url('/productos')}}">SERVICIOS</a></li>
-
-                <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-            </ul>
+            <li><a  href="{{ url('/')}}" >INICIO</a></li>
+            <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+            <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
+            <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
+            <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+            <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
+            <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
         </nav>
         <div class="clearfix"></div>
     </header>

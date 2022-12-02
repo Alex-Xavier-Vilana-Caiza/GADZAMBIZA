@@ -129,6 +129,8 @@
                                     <p>Inicio</p>
                                 </a>
                             </li>
+                            
+
                             @can('administrador')
                             <li class="nav-item">
                                 <a href="{{url('usuarios')}}"
@@ -182,7 +184,7 @@
                                     class="{{ Request::path() === 'Categorias' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-shopping-bag"></i>
                                     <p>
-                                       Categorias de Producto
+                                    Categorias de Producto
                                     </p>
                                 </a>
                             </li>
@@ -191,8 +193,8 @@
                                     class="{{ Request::path() === 'producto' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-shopping-basket"></i>
                                     <p>
-                                      Productos
-                                      <?php $product_count = DB::table('productos')->count(); ?>
+                                    Productos
+                                    <?php $product_count = DB::table('productos')->count(); ?>
                                         <span class="right badge badge-danger">{{ $product_count ?? '0' }}</span>
                                     </p>
                                 </a>
@@ -242,13 +244,13 @@
                 <!-- NO QUITAR -->
                 <strong> GAD ZAMBIZA
                     <div class="float-right d-none d-sm-inline-block">
-                        <b>Version</b> 2.0
+                        <b>Version</b> 1.0
                     </div>
             </footer>
 
             <!-- Control Sidebar -->
             <aside class="control-sidebar control-sidebar-dark">
-               <h1>Hola que hace</h1>
+            <h1>Hola que hace</h1>
             </aside>
             <!-- /.control-sidebar -->
         </div>

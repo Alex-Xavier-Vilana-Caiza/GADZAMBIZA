@@ -16,6 +16,7 @@
     <div id="linkeding">
         <a href="https://www.facebook.com/profile.php?id=100064519253506" target="none" class="fab fa-linkedin"></a>
     </div>
+
 </div>
 @endsection
 @section('navbar_top')
@@ -34,49 +35,45 @@
     </div>
 </div>
 @endsection
-@s
-ection('navbar')
+
+@section('navbar')
     <header>
     <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">BIENVEDINOS</h2>
+        <h2 style="color: white" class="imgtamaño">BIENVENIDOS</h2>
         <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
     </a>
     <div class="menu-toggle" ></div>
-    <nav>
+        <nav>
             <ul>
-              <li><a  href="{{ url('/')}}" >INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+                <li><a  href="{{ url('/')}}" >INICIO</a></li>
+                <li><a class="active" href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-
-                <li><a href="{{ url('/')}}" >INICIO</a></li>
-                <li><a class="active" href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a href="{{ url('/productos')}}">SERVICIOS</a></li>
-                <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-
+                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a href="{{ url('/foto_galeria')}}">FOTO GALERÍA</a></li>
+                <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
     </header>
-@endsection
-@section('banner')
-<div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="hero-text">
-                        <h4>GOBIERNO <span>PARROQUIAL</span></h4>
-						<br>
-						<br>
-                        <h1 class="tipeo1">COMUNÍCATE CON NOSOTROS</h1>
-                        <h1 class="tipeo2"><span class="type"></span></h1>
+    @endsection
+    @section('banner')
+    <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="hero-text">
+                            <h4>GOBIERNO <span>PARROQUIAL</span></h4>
+                            <br>
+                            <h1 class="tipeo1">COMUNÍCATE CON NOSOTROS</h1>
+                            <h1 class="tipeo2"><span class="type"></span></h1>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-@endsection 
+    @endsection 
+    
 @section('cards_service')
 <div class="container_cards">
     <div class="row_cards">
@@ -129,8 +126,8 @@ ection('navbar')
         <div class="contact-info">
                 <h3 class="contact_tittle">ESTAMOS UBICADOS EN</h3>
                 <p class="contact_text">Un punto estratégico para una mejor atención a 
-                    nuestros clientes para que puedan realizar su visita o 
-                    adquirir sus productos.   
+                    nuestros clientes para que puedan realizar su compra o 
+                    recoger sus productos.   
                 </p>
 
             <div class="contactos_info">
@@ -140,7 +137,7 @@ ection('navbar')
                 </div>
                 <div class="contact_information">
                 <i class="fas fa-2x fa-phone-volume"></i>
-                    <p>2886 280 / 0998757288</p>
+                <p>2886 280 / 0998757288</p>
                 </div>
                 <div class="contact_information">
                     <i class="far fa-2x fa-envelope"></i>
@@ -150,10 +147,10 @@ ection('navbar')
             <div class="social_media">
                 <p>REDES SOCIALES</p>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100064519253506" target="none">
+                    <a href="https://www.facebook.com/profile.php?id=100064519253506"  target="none">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100064519253506" target="none">
+                    <a href="https://www.facebook.com/profile.php?id=100064519253506"  target="none">
                         <i class="fab fa-instagram"></i>
                     </a>
                     <a href="" target="none">
@@ -208,7 +205,7 @@ ection('navbar')
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/profile.php?id=100064519253506"target="_blank">Instagram</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-linkedin-in"></i>
