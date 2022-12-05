@@ -64,7 +64,8 @@
                 <div class="col-12">
                     <div class="hero-text">
                         <h4>PAGINA <span>WEB</span></h4>
-					    <br><br>
+					    <br>
+                        <br>
                         <h1 class="tipeo1">DESCRIPCIÓN:</h1>
                     </div>
                 </div>

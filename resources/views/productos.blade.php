@@ -63,7 +63,8 @@
                 <div class="col-12">
                     <div class="hero-text">
                         <h4>PAGINA <span>WEB</span></h4>
-					    <br><br>
+					    <br>
+                        <br>
                         <h1 class="tipeo1">VARIEDAD DE PRODUCTOS</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                     </div>

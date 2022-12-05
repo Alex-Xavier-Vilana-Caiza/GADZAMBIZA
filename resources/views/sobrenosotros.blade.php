@@ -75,9 +75,12 @@
 @section('title')
 <div class="col-12">
 		<div class="testimonial-title">
-			<h5>CONOCE</h5>
-            <h3>MÁS ACERCA DE NUETRO EQUIPO DE TRABAJO</h3>
+            <br>
+            <br>
+            <br>
+            <h3>CONOCE MÁS ACERCA DE NUETRO EQUIPO DE TRABAJO</h3><br>
             <hr class="style1">
+            
 	    </div>
 </div>
 @endsection
