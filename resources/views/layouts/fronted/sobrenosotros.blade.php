@@ -53,7 +53,7 @@
     <script>
 	var typed = new Typed('.type', {
     strings: ['<span><i class="fas fa-mobile-alt"></i></span> 2886 280 / 0998757288', 
-                '<span><i class="fas fa-mail-bulk"></i></span> jldm605@gmail.com'],
+                '<span><i class="fas fa-mail-bulk"></i></span> gadzambiza@hotmail.com'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
     </body>

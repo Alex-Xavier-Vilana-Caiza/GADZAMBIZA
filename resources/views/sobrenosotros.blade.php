@@ -28,7 +28,7 @@
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                gadzambiza@hotmail.com
             </div>
         </div>
     </div>

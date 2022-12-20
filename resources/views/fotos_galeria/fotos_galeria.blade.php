@@ -461,7 +461,7 @@
     <footer>
         <div class="contenedor-footer">
             <div class="content-foo">
-                <h4>Phone</h4>
+                <h4>Celular</h4>
                 <p>0989037997</p>
             </div>
             <div class="content-foo">
@@ -469,7 +469,7 @@
                 <p>zambiza@gmail.com</p>
             </div>
             <div class="content-foo">
-                <h4>Location</h4>
+                <h4>Ubicacion</h4>
                 <p>Jorge Salvador y Osvaldo Urtado</p>
             </div>
         </div>
