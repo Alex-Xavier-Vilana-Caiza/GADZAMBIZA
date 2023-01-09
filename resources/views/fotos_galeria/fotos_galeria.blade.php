@@ -260,8 +260,8 @@
     }
     </style>
 
-    <ul class="menu">
-        <li class="b">BIENVENIDOS <br> </li>
+    <ul class="menu" style="text-align: center">
+        <li class="b"> <br> </li>
         <li><a href="{{ url('/')}}">INICIO</a></li>
         <li><a href="{{ url('/contact')}}">CONTACTENOS</a></li>
         <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
